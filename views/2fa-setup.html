@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>2FA Setup</title><link rel="stylesheet" href="/style.css"></head><body>
+  <div class="container">
+    <h2>Setup Authenticator (2FA)</h2>
+    <p>Scan QR di bawah dengan aplikasi Authenticator (Google Authenticator / Authy)</p>
+    <div class="qr"><img src="{{qr}}" alt="QR Code"></div>
+    <form method="post" action="/2fa-setup">
+      <label>Kode dari aplikasi</label>
+      <input type="text" name="token" pattern="[0-9]*" required>
+      <button type="submit">Verifikasi & Aktifkan</button>
+    </form>
+    <p><a href="/">Batal</a></p>
+  </div>
+</body></html>

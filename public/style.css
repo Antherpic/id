@@ -1,0 +1,7 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#f5f7fb; color:#222; padding:20px; }
+.container { max-width:420px; margin:30px auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+input[type=text], input[type=password], input[type=email] { width:100%; padding:8px 10px; margin:6px 0 12px; box-sizing:border-box; }
+button { background:#0069d9; color:white; padding:10px 14px; border:none; border-radius:4px; cursor:pointer; }
+a { color:#0069d9; text-decoration:none; }
+small { color:#666; }
+.qr { text-align:center; margin:12px 0; }

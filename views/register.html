@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Register</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+  <div class="container">
+    <h2>Buat Akun</h2>
+    <form method="post" action="/register">
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <label>Password</label>
+      <input type="password" name="password" required>
+      <!-- reCAPTCHA -->
+      <div class="g-recaptcha" data-sitekey="{{RECAPTCHA_SITEKEY}}"></div>
+      <br>
+      <button type="submit">Daftar</button>
+    </form>
+    <p><small>Sudah punya akun? <a href="/login">Login</a></small></p>
+  </div>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>

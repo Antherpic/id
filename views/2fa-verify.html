@@ -1,0 +1,11 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Verifikasi 2FA</title><link rel="stylesheet" href="/style.css"></head><body>
+  <div class="container">
+    <h2>Masukkan kode 2FA</h2>
+    <form method="post" action="/2fa-verify">
+      <label>Kode</label>
+      <input type="text" name="token" pattern="[0-9]*" required>
+      <button type="submit">Verifikasi</button>
+    </form>
+  </div>
+</body></html>
